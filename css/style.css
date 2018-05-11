@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600,700,800');
+
+body{
+	font: 300 16px/1.2 "Roboto", sans-serif;
+	background: #003056 url(../img/bg.jpg) 50% 0 /cover;
+	color: #574d72;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+
+.ba-playlist{
+	background: #fff;
+	border-radius: 20px;
+	box-shadow: 1px 0 5px rgba(0, 0, 0, 0.4);
+	padding: 30px 20px;
+	max-width: 400px;
+	margin: 0 auto;
+}
+.ba-playlist__title{
+    text-align: center;
+    font-weight: 600;
+    margin: 0 0 25px;
+}
+.ba-playlist__items{
+	padding: 0;
+}
+.ba-song{
+	list-style-type: none;
+	border-top: 1px solid #e4e2e2;
+	padding-top: 10px;
+	margin-top: 10px;
+}
+.ba-song__like{
+	margin-top: 10px;
+	margin-right: 10px;
+	float: right;
+	width: 20px;
+	height: 20px;
+	fill: #ed5e75;
+	cursor: pointer;
+}
+.ba-song__like:hover{
+	fill: #ccc;
+	transition: .3s;
+}
+.ba-song__top{
+	text-transform: capitalize;
+	font-size: 80%;
+	color: #ccc;
+	margin-bottom: 5px;
+}
+.ba-song__name{
+	font-weight: 600;
+}
+.ba-song__name:first-letter{
+	text-transform: capitalize;
+}
+
+
+
+
+
+
+
+
